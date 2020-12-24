@@ -31,7 +31,7 @@ function News(props) {
     }
 
     var url =
-      "http://newsapi.org/v2/top-headlines?" +
+      "https://newsapi.org/v2/top-headlines?" +
       "country=in&" +
       "category=" +
       category +
