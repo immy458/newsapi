@@ -63,6 +63,7 @@ function NewsForm() {
                 onChange={(date) => setendDate(date)}
                 maxDate={new Date()}
                 dateFormat="yyyy-MM-dd"
+                minDate={new Date(startDate)}
               />
             </div>
           </div>
